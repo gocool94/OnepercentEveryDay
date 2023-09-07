@@ -1,106 +1,165 @@
 **Set 1: Questions 1-100**
 
 1. What is Python, and why is it popular in the programming community?
-2. Explain the difference between Python 2 and Python 3.
-3. How do you comment out code in Python?
-4. What is a variable, and how do you declare one in Python?
-5. How do you print the type of a variable in Python?
-6. Explain the concept of indentation in Python.
-7. What are Python's reserved keywords?
-8. Describe the purpose of built-in functions like `len()` and `range()` in Python.
-9. What is a tuple in Python, and how is it different from a list?
-10. How do you create a dictionary in Python?
-11. Explain the `if`, `elif`, and `else` statements in Python.
-12. What is a for loop, and how do you use it in Python?
-13. How do you define a function in Python?
-14. What is recursion, and how can you use it in Python?
-15. Describe how to handle exceptions in Python using the `try`, `except`, and `finally` blocks.
-16. How do you use a while loop in Python?
-17. Explain the purpose of the `pass` statement in Python.
-18. What is the difference between `break` and `continue` in Python?
-19. What are list comprehensions, and how do you use them?
-20. How do you sort a list in Python, and what is the difference between `sort()` and `sorted()`?
-21. Describe the characteristics of a Python list.
-22. What is a set in Python, and how is it different from a list or a tuple?
-23. Explain the concept of a stack and a queue in Python.
-24. What is a generator in Python, and why is it useful?
-25. How do you create and use a dictionary in Python?
-26. What is a lambda function, and where is it commonly used?
-27. Explain the purpose of list comprehensions in Python.
-28. How do you sort a list in Python, and what is the difference between `sort()` and `sorted()`?
-29. What is a defaultdict in Python, and how is it different from a regular dictionary?
-30. How can you merge two dictionaries in Python?
-31. What is a class in Python, and how do you define one?
-32. Explain the concepts of encapsulation, inheritance, and polymorphism in OOP.
-33. How do you create an instance of a class in Python?
-34. Describe the purpose of constructors in Python classes.
-35. What is method overriding in Python, and how do you implement it?
-36. Explain the concept of multiple inheritance in Python.
-37. What is a decorator, and how can you use it with class methods?
-38. Describe the use of `self` in Python classes.
-39. How do you open and close files in Python?
-40. Explain the difference between reading a file in text mode and binary mode.
-41. How can you write data to a file in Python?
-42. What is the purpose of the `with` statement when working with files?
-43. How do you read and write CSV files in Python?
-44. What is a Python module, and how do you import one?
-45. Describe the differences between the `import` statement and the `from ... import ...` statement.
-46. How do you create a custom Python module?
-47. Explain the purpose of the `os` module in Python.
-48. What is the `numpy` library, and how is it used in Python?
-49. How do you handle exceptions in Python using the `try`, `except`, and `finally` blocks?
-50. What is the purpose of the `random` module in Python?
-51. How do you generate random numbers in Python?
-52. Explain the use of the `datetime` module in Python for date and time operations.
-53. What is the purpose of the `json` module in Python, and how do you use it for data serialization and deserialization?
-54. What are regular expressions, and how can you use them in Python?
-55. Describe the purpose of the `pickle` module in Python, and how do you use it for object serialization?
-56. How do you work with command-line arguments in Python using the `argparse` module?
-57. What is a virtual environment in Python, and why is it useful?
-58. Explain the purpose of the `logging` module in Python.
-59. How can you make an HTTP request in Python using the `requests` library?
-60. What is the purpose of the `threading` module in Python, and how do you create and manage threads?
-61. How do you work with regular expressions in Python using the `re` module?
-62. Explain the Global Interpreter Lock (GIL) in Python and its impact on multi-threading.
-63. What are decorators in Python, and how can you use them to modify the behavior of functions or methods?
-64. Describe the purpose of Python's garbage collection mechanism.
-65. How do you work with databases in Python using the `sqlite3` module?
-66. What is the purpose of the `asyncio` library in Python, and how can you use it for asynchronous programming?
-67. Explain the concept of a coroutine in Python and its relationship with `asyncio`.
-68. How do you create a custom exception class in Python?
-69. What is the purpose of the `unittest` module in Python, and how do you write unit tests?
-70. Describe the differences between Python 2 and Python 3 when it comes to string handling.
-71. How do you perform file I/O operations in Python using the `io` module?
-72. Explain the purpose of the `contextlib` module in Python and its use in context managers.
-73. What are metaclasses in Python, and how are they useful?
-74. How can you measure the execution time of a Python program or a specific function?
-75. Describe the purpose of the `collections` module in Python and provide examples of commonly used data structures from this module.
-76. How do you implement a custom iterator in Python using the `__iter__()` and `__next__()` methods?
-77. What are namespaces and scope in Python, and how do they affect variable and function access?
-78. Explain the purpose of the `functools` module in Python and provide examples of its usage.
-79. How can you create and work with multi-dimensional arrays in Python using the `numpy` library?
-80. What is the purpose of the `itertools` module in Python, and how do you use it for combinatorial operations?
-81. How do you handle errors and exceptions in Python using the `logging` module?
-82. What is a context manager in Python, and how do you create one?
-83. Explain the purpose of the `async` and `await` keywords in Python's asynchronous programming model.
-84. How do you use the `asyncio` library to work with asynchronous tasks in Python?
-85. What is monkey patching in Python, and when might it be useful?
-86. Describe the purpose of the `struct` module in Python and its use in working with binary data.
 
-87. How can you create and work with custom data structures in Python using classes and magic methods?
-88. Explain the purpose of the `zip()` function in Python and provide examples of its usage.
-89. How do you create and use a context manager as a class in Python?
-90. What is the purpose of the `threading` module in Python, and how do you create and manage threads?
-91. How can you implement a simple HTTP server in Python using the `http.server` module?
-92. Describe the purpose of the `sqlite3` module in Python and provide examples of database operations.
-93. How do you handle binary data in Python, and what is the use of the `bytes` and `bytearray` types?
-94. Explain the purpose of the `pickle` module in Python, and how do you use it for object serialization?
-95. What are metaclasses in Python, and how are they useful?
-96. Describe the purpose of the `collections` module in Python and provide examples of commonly used data structures from this module.
-97. How do you implement a custom iterator in Python using the `__iter__()` and `__next__()` methods?
-98. What are namespaces and scope in Python, and how do they affect variable and function access?
-99. Explain the purpose of the `functools` module in Python and provide examples of its usage.
-100. How do you handle errors and exceptions in Python using the `logging` module?
+   - python is a interpreted programming language,
+
+2. Explain the difference between Python 2 and Python 3.
+
+- -Python 2 and Python 3 are two major versions of the Python programming language. Python 3 was introduced as the successor to Python 2, and it includes several significant changes and improvements. As of my last knowledge update in September 2021, Python 2 has reached its end of life, and Python 3 is the only actively maintained version. Here are some key differences between Python 2 and Python 3:
+
+1. **Print Statement vs. Print Function:**
+
+   - Python 2: Uses the `print` statement, e.g., `print "Hello, World!"`.
+   - Python 3: Uses the `print` function, e.g., `print("Hello, World!")`.
+
+2. **Division Behavior:**
+
+   - Python 2: Integer division (`/`) between two integers results in an integer (floor division). To perform true division, you need to convert one or both operands to floats, e.g., `3 / 2` results in `1`.
+   - Python 3: Integer division (`/`) between two integers results in a float. To perform floor division, you can use `//`, e.g., `3 / 2` results in `1.5`, and `3 // 2` results in `1`.
+
+3. **Unicode Support:**
+
+   - Python 2: Limited support for Unicode strings. Unicode strings are designated with a `u` prefix, e.g., `u"Hello"`.
+   - Python 3: Strings are Unicode by default. Unicode strings do not require a prefix, e.g., `"Hello"`.
+
+4. **Print Function Parentheses:**
+
+   - Python 2: Optional to use parentheses with the `print` statement.
+   - Python 3: Requires parentheses when using the `print` function.
+
+5. **xrange vs. range:**
+
+   - Python 2: Has `xrange()`, which is more memory-efficient for large ranges.
+   - Python 3: The `range()` function behaves like Python 2's `xrange()`. There is no separate `xrange()` in Python 3.
+
+6. **Iterators and Iterables:**
+
+   - Python 2: `range()` returns a list; you need to use `xrange()` for an iterator.
+   - Python 3: `range()` returns an iterator by default.
+
+7. **Exceptions:**
+
+   - Python 2: `except` statements use a comma to catch multiple exceptions, e.g., `except (ValueError, TypeError):`.
+   - Python 3: `except` statements use `as` to catch multiple exceptions, e.g., `except (ValueError, TypeError) as e:`.
+
+8. **Unicode Strings in Input:**
+
+   - Python 2: Reading input from the user using `input()` returns a string (byte string).
+   - Python 3: Reading input from the user using `input()` returns a Unicode string.
+
+9. **Bytes and Strings:**
+
+   - Python 2: Uses ASCII strings and `str` for bytes.
+   - Python 3: Distinguishes between bytes (`bytes`) and Unicode strings (`str`).
+
+10. **Syntax Changes:**
+
+    - Python 3 introduced various syntax changes and improvements, such as the introduction of the `nonlocal` keyword, extended unpacking, and more.
+
+---
+
+11. How do you comment out code in Python? 1. # - single line comment 2. """""" - multi line comment
+12. What is a variable, and how do you declare one in Python?
+    1.  variable is a blockby which we name a datatype to store it in memory and use it for later use
+13. How do you print the type of a variable in Python?
+    1.  type(variable)
+14. Explain the concept of indentation in Python.
+15. What are Python's reserved keywords?
+16. Describe the purpose of built-in functions like `len()` and `range()` in Python.
+17. What is a tuple in Python, and how is it different from a list?
+18. How do you create a dictionary in Python?
+19. Explain the `if`, `elif`, and `else` statements in Python.
+20. What is a for loop, and how do you use it in Python?
+21. How do you define a function in Python?
+22. What is recursion, and how can you use it in Python?
+23. Describe how to handle exceptions in Python using the `try`, `except`, and `finally` blocks.
+24. How do you use a while loop in Python?
+25. Explain the purpose of the `pass` statement in Python.
+26. What is the difference between `break` and `continue` in Python?
+27. What are list comprehensions, and how do you use them?
+28. How do you sort a list in Python, and what is the difference between `sort()` and `sorted()`?
+29. Describe the characteristics of a Python list.
+30. What is a set in Python, and how is it different from a list or a tuple?
+31. Explain the concept of a stack and a queue in Python.
+32. What is a generator in Python, and why is it useful?
+33. How do you create and use a dictionary in Python?
+34. What is a lambda function, and where is it commonly used?
+35. Explain the purpose of list comprehensions in Python.
+36. How do you sort a list in Python, and what is the difference between `sort()` and `sorted()`?
+37. What is a defaultdict in Python, and how is it different from a regular dictionary?
+38. How can you merge two dictionaries in Python?
+39. What is a class in Python, and how do you define one?
+40. Explain the concepts of encapsulation, inheritance, and polymorphism in OOP.
+41. How do you create an instance of a class in Python?
+42. Describe the purpose of constructors in Python classes.
+43. What is method overriding in Python, and how do you implement it?
+44. Explain the concept of multiple inheritance in Python.
+45. What is a decorator, and how can you use it with class methods?
+46. Describe the use of `self` in Python classes.
+47. How do you open and close files in Python?
+48. Explain the difference between reading a file in text mode and binary mode.
+49. How can you write data to a file in Python?
+50. What is the purpose of the `with` statement when working with files?
+51. How do you read and write CSV files in Python?
+52. What is a Python module, and how do you import one?
+53. Describe the differences between the `import` statement and the `from ... import ...` statement.
+54. How do you create a custom Python module?
+55. Explain the purpose of the `os` module in Python.
+56. What is the `numpy` library, and how is it used in Python?
+57. How do you handle exceptions in Python using the `try`, `except`, and `finally` blocks?
+58. What is the purpose of the `random` module in Python?
+59. How do you generate random numbers in Python?
+60. Explain the use of the `datetime` module in Python for date and time operations.
+61. What is the purpose of the `json` module in Python, and how do you use it for data serialization and deserialization?
+62. What are regular expressions, and how can you use them in Python?
+63. Describe the purpose of the `pickle` module in Python, and how do you use it for object serialization?
+64. How do you work with command-line arguments in Python using the `argparse` module?
+65. What is a virtual environment in Python, and why is it useful?
+66. Explain the purpose of the `logging` module in Python.
+67. How can you make an HTTP request in Python using the `requests` library?
+68. What is the purpose of the `threading` module in Python, and how do you create and manage threads?
+69. How do you work with regular expressions in Python using the `re` module?
+70. Explain the Global Interpreter Lock (GIL) in Python and its impact on multi-threading.
+71. What are decorators in Python, and how can you use them to modify the behavior of functions or methods?
+72. Describe the purpose of Python's garbage collection mechanism.
+73. How do you work with databases in Python using the `sqlite3` module?
+74. What is the purpose of the `asyncio` library in Python, and how can you use it for asynchronous programming?
+75. Explain the concept of a coroutine in Python and its relationship with `asyncio`.
+76. How do you create a custom exception class in Python?
+77. What is the purpose of the `unittest` module in Python, and how do you write unit tests?
+78. Describe the differences between Python 2 and Python 3 when it comes to string handling.
+79. How do you perform file I/O operations in Python using the `io` module?
+80. Explain the purpose of the `contextlib` module in Python and its use in context managers.
+81. What are metaclasses in Python, and how are they useful?
+82. How can you measure the execution time of a Python program or a specific function?
+83. Describe the purpose of the `collections` module in Python and provide examples of commonly used data structures from this module.
+84. How do you implement a custom iterator in Python using the `__iter__()` and `__next__()` methods?
+85. What are namespaces and scope in Python, and how do they affect variable and function access?
+86. Explain the purpose of the `functools` module in Python and provide examples of its usage.
+87. How can you create and work with multi-dimensional arrays in Python using the `numpy` library?
+88. What is the purpose of the `itertools` module in Python, and how do you use it for combinatorial operations?
+89. How do you handle errors and exceptions in Python using the `logging` module?
+90. What is a context manager in Python, and how do you create one?
+91. Explain the purpose of the `async` and `await` keywords in Python's asynchronous programming model.
+92. How do you use the `asyncio` library to work with asynchronous tasks in Python?
+93. What is monkey patching in Python, and when might it be useful?
+94. Describe the purpose of the `struct` module in Python and its use in working with binary data.
+
+95. How can you create and work with custom data structures in Python using classes and magic methods?
+96. Explain the purpose of the `zip()` function in Python and provide examples of its usage.
+97. How do you create and use a context manager as a class in Python?
+98. What is the purpose of the `threading` module in Python, and how do you create and manage threads?
+99. How can you implement a simple HTTP server in Python using the `http.server` module?
+100.  Describe the purpose of the `sqlite3` module in Python and provide examples of database operations.
+101.  How do you handle binary data in Python, and what is the use of the `bytes` and `bytearray` types?
+102.  Explain the purpose of the `pickle` module in Python, and how do you use it for object serialization?
+103.  What are metaclasses in Python, and how are they useful?
+104.  Describe the purpose of the `collections` module in Python and provide examples of commonly used data structures from this module.
+105.  How do you implement a custom iterator in Python using the `__iter__()` and `__next__()` methods?
+106.  What are namespaces and scope in Python, and how do they affect variable and function access?
+107.  Explain the purpose of the `functools` module in Python and provide examples of its usage.
+108.  How do you handle errors and exceptions in Python using the `logging` module?
 
 **Set 2: Questions 101-200**
 
@@ -205,8 +264,6 @@
 198. What is monkey patching in Python, and when might it be useful?
 199. Describe the purpose of the `struct` module in Python and its use in working with binary data.
 200. How can you create and work with custom data structures in Python using classes and magic methods?
-
-Certainly! Here's the next set of Python interview questions, questions 201-300:
 
 **Set 3: Questions 201-300**
 
