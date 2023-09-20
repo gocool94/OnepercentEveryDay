@@ -1,7 +1,5 @@
 ## Journey to Google
 
-#### Day 1 of 365
-
 - [x] List - Geeks for Geeks
 - [ ] Recursion
 - [ ] Mathematics - Geeks for Geeks
@@ -10,9 +8,6 @@
 - [ ] Sorting
 - [ ] Fastapi
 - [ ] python interview questions
-
-#### Day 2 of 365
-
 - [ ] Decorators
 - [ ] Pandas and numpy
 - [ ] LinkedList
@@ -20,3 +15,36 @@
 - [ ] fastapi interview questions
 - [ ] Django interview questions
 - [ ] sql interview questions
+- [ ] Fastapi project
+
+## Final week preparation buckets -> 8-9-2023 to 15-9-2023
+
+- [ ] searching
+- [ ] sorting
+- [ ] decorators
+- [ ] generators
+- [ ] iterators
+- [ ] set
+- [ ] dictionary
+- [ ] tuple
+- [ ] OOPS
+- [ ] pandas - interview questions and problems
+- [ ] numpy - interview questions and problems
+- [ ] database
+- [ ] docker - basic understanding
+- [ ] fastapi
+- [ ] fastapi - project [Backend]
+- [ ] fastapi interview questions - All
+- [ ] Pyspark
+- [ ] pyspark interview questions
+- [ ] reactjs
+- [ ] reactjs - project [frontend]
+- [ ] sql interview questions
+
+-
+
+### Day 1
+
+- [x] decorator
+- [ ] fastapi
+- [ ] create expense tracker plans and questionbank plans
