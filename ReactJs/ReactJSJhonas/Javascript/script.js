@@ -142,41 +142,38 @@ function getBooks() {
 function getBook(id) {
   return data.find((d) => d.id === id);
 }
+const books = getBooks();
 
-console.log("Hello");
+const book = getBook(2);
 
-console.log(getBooks());
+//books;
+//const title = book.title;
+//title;
 
-const Book = getBook(2);
-console.log(Book.title);
+const { title, author, genres } = book;
+title;
 
-const { title, author, genres } = Book;
+const [primaryGenre, ...SecondayGenre] = genres;
 
-const [primaryGenre, secondaryGenre, ...OtherGenres] = genres;
+SecondayGenre;
 
-console.log(primaryGenre, secondaryGenre, ...OtherGenres);
-// We should give the name exactly as that of the object
-console.log(OtherGenres);
+const newGenre = [...genres, "Helo"];
+newGenre;
 
-const updatedBook = { Book, "moviepublication date": "2022-2-1990" };
-updatedBook;
-
-const summary = `${title} a book`;
+const summary = `${1 + 1}`;
 summary;
 
-const pages = 100;
+const pages = 10000;
+const confirm = pages > 10001 ? "this is large" : "That is large";
+confirm;
 
-const con = pages == 100 ? "equal to 100" : "less than 100";
-
-con;
-
-function getYear(str) {
-  return str + "ggg";
+function getYear(n) {
+  return n;
 }
 
-console.log(getYear("1011"));
+const newv = getYear(2022);
+newv;
 
-const getval = (str, a, b) => str + "ggg";
-
-const new_val = getval("hello", 2, 3);
-new_val;
+const mult = (m) => m * 10;
+const c = mult(10);
+c;
